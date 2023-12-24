@@ -1,5 +1,5 @@
 
-# [Book Store - ReactJS Web Application](https://book-store-vytcka.vercel.app/)
+# [Book Store - ReactJS Web Application](https://book-store-vytautas-sablinskas.vercel.app/)
 
 ## Introduction
 
