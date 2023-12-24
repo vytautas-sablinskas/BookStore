@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import './index.sass';
 import AppRouter from './app_navigation/AppRouter';
@@ -15,15 +15,25 @@ let iconsInitialized = false;
 
 function AppInitializer() : JSX.Element {
   const dispatch = useDispatch();
-  
+  const [isLoading, setIsLoading] = useState(true);
+
   if (!iconsInitialized) {
     initializeIcons();
-    iconsInitialized = true;
   }
 
   useEffect(() => {
-    dispatch(setProducts(productsData.products));
-  }, []);
+    const loadProducts = async () => {
+      console.log(productsData.products);
+      await dispatch(setProducts(productsData.products));
+      setIsLoading(false);
+    };
+
+    loadProducts();
+  }, [dispatch]);
+
+  if (isLoading) {
+    return <Loading />;
+  }
 
   return <AppRouter />;
 }
