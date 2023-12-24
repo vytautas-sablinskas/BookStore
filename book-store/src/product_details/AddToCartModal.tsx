@@ -2,7 +2,7 @@ import React from 'react';
 import './AddToCartModal.sass';
 import { useNavigate } from 'react-router-dom';
 import Paths from '../app_navigation/Paths';
-import { AddToCartModalProps } from '../shared/PropInterfaces';
+import { AddToCartModalProps } from '../Shared/PropInterfaces';
 
 function AddToCartModal(props: AddToCartModalProps): JSX.Element | null {
     const navigate = useNavigate();

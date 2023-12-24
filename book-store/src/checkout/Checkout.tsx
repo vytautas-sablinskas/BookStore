@@ -9,8 +9,8 @@ import { TextField } from '@fluentui/react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft24Filled } from "@fluentui/react-icons";
 import { addOrder } from '../redux/actions/orderActions';
-import { ShoppingCartState } from '../shared/ReduxInterfaces';
-import { Order, ShoppingCartItemEntity } from '../shared/EntityInterfaces';
+import { ShoppingCartState } from '../Shared/ReduxInterfaces';
+import { Order, ShoppingCartItemEntity } from '../Shared/EntityInterfaces';
 
 function Checkout() : JSX.Element {
     const [email, setEmail] = useState('');

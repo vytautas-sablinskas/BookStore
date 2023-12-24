@@ -2,7 +2,7 @@ import React from 'react';
 import './OrderModal.sass';
 import { useNavigate } from 'react-router-dom';
 import Paths from '../app_navigation/Paths';
-import { OrderModalProps } from '../shared/PropInterfaces';
+import { OrderModalProps } from '../Shared/PropInterfaces';
 
 function OrderModal(props: OrderModalProps) : JSX.Element | null {
     const navigate = useNavigate();

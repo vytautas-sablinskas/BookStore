@@ -5,7 +5,7 @@ import './ShoppingCart.sass';
 import { useNavigate } from 'react-router-dom';
 import Paths from '../app_navigation/Paths';
 import { ArrowLeft24Filled } from "@fluentui/react-icons";
-import { ShoppingCartState } from '../shared/ReduxInterfaces';
+import { ShoppingCartState } from '../Shared/ReduxInterfaces';
 
 function ShoppingCart() : JSX.Element {
     const navigate = useNavigate();

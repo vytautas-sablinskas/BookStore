@@ -1,5 +1,5 @@
-import { Product } from '../../shared/EntityInterfaces';
-import { SET_PRODUCTS } from '../../shared/ReduxInterfaces';
+import { Product } from '../../Shared/EntityInterfaces';
+import { SET_PRODUCTS } from '../../Shared/ReduxInterfaces';
 
 export const setProducts = (products : Product[]) => {
     return {

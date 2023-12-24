@@ -1,5 +1,5 @@
-import { ADD_ORDER, OrderAction } from "../../shared/ReduxInterfaces";
-import { Order } from "../../shared/EntityInterfaces";
+import { ADD_ORDER, OrderAction } from "../../Shared/ReduxInterfaces";
+import { Order } from "../../Shared/EntityInterfaces";
 
 const initialState : Order[] = [];
 

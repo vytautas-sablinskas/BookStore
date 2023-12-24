@@ -3,7 +3,7 @@ import { DocumentCard, SpinButton } from "@fluentui/react";
 import './ShoppingCartItem.sass';
 import { useDispatch } from 'react-redux';
 import { removeItemFromShoppingCart, setItemAmountInShoppingCart } from '../redux/actions/shoppingCartActions';
-import { ShoppingCartItemEntity } from "../shared/EntityInterfaces";
+import { ShoppingCartItemEntity } from "../Shared/EntityInterfaces";
 
 function ShoppingCartItem(shoppingCartItem: ShoppingCartItemEntity): JSX.Element {
     const dispatch = useDispatch();

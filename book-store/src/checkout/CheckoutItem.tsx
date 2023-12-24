@@ -1,7 +1,7 @@
 import React from 'react';
 import { DocumentCard } from "@fluentui/react";
 import './CheckoutItem.sass';
-import { CheckoutItemProps } from '../shared/PropInterfaces';
+import { CheckoutItemProps } from '../Shared/PropInterfaces';
 
 function CheckoutItem(props: CheckoutItemProps) : JSX.Element {
     const truncatedTitle = props.title.length > 50 ? props.title.substr(0, 47) + "..." : props.title;
