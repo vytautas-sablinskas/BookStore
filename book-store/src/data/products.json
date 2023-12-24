@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "/products/image1.jpg",
+      "title": "The Catcher in the Rye",
+      "description": "This classic novel follows the journey of Holden Caulfield, a young man disenchanted with society. A poignant story that delves into themes of adolescence, identity, and the human condition.",
+      "rating": 4.2,
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "imageUrl": "/products/image2.jpg",
+      "title": "1984",
+      "description": "George Orwell's dystopian masterpiece, '1984,' explores a totalitarian society under the oppressive rule of Big Brother. It examines issues of surveillance, censorship, and manipulation.",
+      "rating": 4.5,
+      "price": 12.99
+    },
+    {
+      "id": 3,
+      "imageUrl": "/products/image3.jpg",
+      "title": "To Kill a Mockingbird",
+      "description": "Set in the American South, this Pulitzer Prize-winning novel focuses on the Finch family and their fight against racial injustice, as told through the eyes of young Scout Finch.",
+      "rating": 4.8,
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "imageUrl": "/products/image4.jpg",
+      "title": "Moby-Dick",
+      "description": "Herman Melville's tale of Captain Ahab's obsessive quest to hunt the white whale, Moby Dick, is a profound exploration of ambition, morality, and the human spirit.",
+      "rating": 3.9,
+      "price": 11.99
+    },
+    {
+      "id": 5,
+      "imageUrl": "/products/image5.jpg",
+      "title": "Pride and Prejudice",
+      "description": "Jane Austen's romantic comedy follows the life of Elizabeth Bennet as she navigates love, family, and societal expectations in early 19th-century England.",
+      "rating": 4.6,
+      "price": 8.99
+    },
+    {
+      "id": 6,
+      "imageUrl": "/products/image6.jpg",
+      "title": "The Great Gatsby",
+      "description": "F. Scott Fitzgerald's tale of Jay Gatsby and his unrequited love for Daisy Buchanan is set against the backdrop of the Roaring Twenties. It explores themes of the American Dream, love, and betrayal.",
+      "rating": 4.3,
+      "price": 7.99
+    },
+    {
+      "id": 7,
+      "imageUrl": "/products/image7.jpg",
+      "title": "The Hobbit",
+      "description": "J.R.R. Tolkien's fantasy classic follows the journey of Bilbo Baggins, who embarks on an epic quest with a group of dwarves to reclaim their home from a fearsome dragon.",
+      "rating": 4.7,
+      "price": 14.99
+    },
+    {
+      "id": 8,
+      "imageUrl": "/products/image8.jpg",
+      "title": "The Interesting Narrative of the Life of Olaudah Equiano",
+      "description": "This autobiography by Olaudah Equiano is a significant work that recounts his life from being born in Nigeria, his capture, and enslavement, to his eventual freedom and activism against the slave trade.",
+      "rating": 4.5,
+      "price": 16.99
+    }
+  ]
+}
