@@ -9,6 +9,7 @@ import { useDispatch } from 'react-redux';
 import { setProducts } from './redux/actions/productsActions';
 import productsData from './data/products.json';
 import { initializeIcons } from '@fluentui/react/lib/Icons';
+import Loading from './Shared/Loading';
 
 let iconsInitialized = false;
 
@@ -22,7 +23,7 @@ function AppInitializer() : JSX.Element {
 
   useEffect(() => {
     dispatch(setProducts(productsData.products));
-  }, [dispatch]);
+  }, []);
 
   return <AppRouter />;
 }
@@ -33,7 +34,7 @@ const appRoot = ReactDOM.createRoot(root);
 appRoot.render(
   <React.StrictMode>
     <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
+      <PersistGate loading={<Loading />} persistor={persistor}>
         <AppInitializer />
       </PersistGate>
     </Provider>
