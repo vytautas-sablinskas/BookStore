@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The Book Store is a ReactJS-based web application that simulates a real-world bookstore. This project is a training task, highlighting the integration of various web technologies.
+The Book Store is a Mobile first ReactJS-based web application that simulates a real-world bookstore. This project is a training task, highlighting the integration of various web technologies.
 
 ## Technologies
 
