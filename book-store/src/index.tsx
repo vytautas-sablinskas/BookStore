@@ -9,7 +9,7 @@ import { useDispatch } from 'react-redux';
 import { setProducts } from './redux/actions/productsActions';
 import productsData from './data/products.json';
 import { initializeIcons } from '@fluentui/react/lib/Icons';
-import Loading from './Shared/Loading';
+import Loading from './shared_components/Loading';
 
 let iconsInitialized = false;
 

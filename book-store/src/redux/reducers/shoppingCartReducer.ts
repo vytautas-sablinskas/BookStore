@@ -1,11 +1,11 @@
-import { ShoppingCartItemEntity } from '../../Shared/EntityInterfaces';
+import { ShoppingCartItemEntity } from '../../shared_components/EntityInterfaces';
 import {
   ADD_ITEM_TO_SHOPPING_CART,
   REMOVE_ITEM_FROM_SHOPPING_CART,
   SET_ITEM_AMOUNT_IN_SHOPPING_CART,
   RESET_SHOPPING_CART,
   ShoppingCartAction,
-} from '../../Shared/ReduxInterfaces';
+} from '../../shared_components/ReduxInterfaces';
 
 const initialState: ShoppingCartItemEntity[] = [];
 

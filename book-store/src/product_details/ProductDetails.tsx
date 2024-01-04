@@ -5,10 +5,10 @@ import { Rating, RatingSize, SpinButton, DocumentCard } from '@fluentui/react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import PageNotFound from '../Shared/PageNotFound';
+import PageNotFound from '../shared_components/PageNotFound';
 import { addItemToShoppingCart } from '../redux/actions/shoppingCartActions';
-import { ProductState } from '../Shared/ReduxInterfaces';
-import { Product, ShoppingCartItemEntity } from '../Shared/EntityInterfaces';
+import { ProductState } from '../shared_components/ReduxInterfaces';
+import { Product, ShoppingCartItemEntity } from '../shared_components/EntityInterfaces';
 
 function ProductDetails() : JSX.Element {
     const { id } = useParams();

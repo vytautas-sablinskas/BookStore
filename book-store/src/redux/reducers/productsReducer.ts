@@ -1,5 +1,5 @@
-import { Product } from '../../Shared/EntityInterfaces';
-import { SetProductsAction, SET_PRODUCTS } from '../../Shared/ReduxInterfaces';
+import { Product } from '../../shared_components/EntityInterfaces';
+import { SetProductsAction, SET_PRODUCTS } from '../../shared_components/ReduxInterfaces';
 
 const initialState: Product[] = [];
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ProductItem from './ProductItem';
 import './Products.sass';
 import { useSelector } from 'react-redux';
-import { ProductState } from '../Shared/ReduxInterfaces';
+import { ProductState } from '../shared_components/ReduxInterfaces';
 
 const ITEMS_PER_PAGE = 3;
 const NEAR_BOTTOM_THRESHOLD = 50;

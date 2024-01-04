@@ -7,7 +7,7 @@ import {
     DocumentCardType
 } from '@fluentui/react/lib/DocumentCard';
 import Paths from '../app_navigation/Paths';
-import { ProductItemEntity } from '../Shared/EntityInterfaces';
+import { ProductItemEntity } from '../shared_components/EntityInterfaces';
 
 function ProductItem(item: ProductItemEntity): JSX.Element {
     const navigate = useNavigate();

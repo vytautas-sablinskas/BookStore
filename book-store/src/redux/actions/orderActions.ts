@@ -1,5 +1,5 @@
-import { Order } from "../../Shared/EntityInterfaces"
-import { ADD_ORDER } from "../../Shared/ReduxInterfaces";
+import { Order } from "../../shared_components/EntityInterfaces"
+import { ADD_ORDER } from "../../shared_components/ReduxInterfaces";
 
 export const addOrder = (order : Order) => {
     return {
