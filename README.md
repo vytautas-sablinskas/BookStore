@@ -3,18 +3,18 @@
 
 ## Introduction
 
-The Book Store is a Mobile first ReactJS-based web application that simulates a real-world bookstore. This project is a training task, highlighting the integration of various web technologies.
+The Book Store is a Mobile first ReactJS-based web application that simulates a real-world bookstore. The goal of this project was to get familiar with different technologies used to develop client-side applications.
 
 ## Technologies
 
-This project utilizes ReactJS for building the user interface, coupled with Redux for managing the state of the product list and shopping cart, ensuring data persistence across page reloads. Fluent UI is used for few UI components, and SASS aids in writing more efficient and maintainable stylesheets. The application is structured as a Single Page Application (SPA) using React Router for seamless page navigation.
+This project utilizes ReactJS for building the user interface, coupled with Redux for managing the state of the product list and shopping cart, ensuring data persistence across page reloads. Fluent UI is used for a few UI components, and SASS aids in writing more efficient and maintainable stylesheets. The application is structured as a Single Page Application (SPA) using React Router for seamless page navigation.
 
 ## Features
 
 ### Main Page (Product List)
 - Showcases a list of available books with key details.
 - Implements lazy loading for efficient data fetching and rendering.
-- Users can browse and select items for more details or adding to the cart.
+- Users can browse and select items for more details or add to the cart.
 
 ### Product Details
 - Provides comprehensive information about each book.
